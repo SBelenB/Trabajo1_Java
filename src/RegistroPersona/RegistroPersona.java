@@ -17,7 +17,7 @@ public class RegistroPersona {
             String[] botones = {"Nueva persona", "Ver personas registradas", "Salir"};
             int opcion = JOptionPane.showOptionDialog(
                     null,
-                    "Seleccione una opción:",
+                    "Seleccione una opcion:",
                     "Registro de Personas",
                     JOptionPane.DEFAULT_OPTION,
                     JOptionPane.QUESTION_MESSAGE,
@@ -33,7 +33,7 @@ public class RegistroPersona {
                     listaPersonas(personasRegistradas);
                     break;
                 case 2:
-                    JOptionPane.showMessageDialog(null, "Saliendo de la aplicación.");
+                    JOptionPane.showMessageDialog(null, "Saliendo de la aplicacion.");
                     System.exit(0);
                     break;
             }
@@ -55,9 +55,9 @@ public class RegistroPersona {
         }
         
         //Solicitar el dni y validar que tenga 8 digitos
-        String dni = JOptionPane.showInputDialog("Ingresa el DNI (8 dígitos):");
+        String dni = JOptionPane.showInputDialog("Ingresa el DNI (8 digitos):");
         if (!dni.matches("\\d{8}")) { 
-            JOptionPane.showMessageDialog(null, "El DNI debe tener 8 dígitos. Registro cancelado.");
+            JOptionPane.showMessageDialog(null, "El DNI debe tener 8 digitos. Registro cancelado.");
             return;
         }
         
