@@ -1,5 +1,3 @@
-![Repo Banner](https://i.imgur.com/tskWBE0.png)
-
 <div align="center">
 
 <h1 style="border-bottom: none">
