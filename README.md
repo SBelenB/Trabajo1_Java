@@ -16,8 +16,8 @@ La finalidad de esta aplicación fue aplicar los conceptos y habilidades adquiri
 1. Clona el repositorio en tu computador.
 
 ```bash
-git clone https://github.com/SBelenB/Trabajo1_Neoris_Java.git
-cd Trabajo1_Neoris_Java\src\RegistroPersona
+git clone https://github.com/SBelenB/Trabajo1_Java
+cd Trabajo1_Java\src\RegistroPersona
 ```
 
 2. Ejecuta la aplicación `RegistroPersona.java` para iniciar la aplicación.
